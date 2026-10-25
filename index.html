@@ -1,0 +1,1095 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Satisfy&display=swap"
+        rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<style>
+    @keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-15px);
+    }
+}
+.animate-float {
+    animation: float 3s ease-in-out infinite;
+}
+</style>
+<style>
+
+@keyframes shine {
+    100% {
+        transform: translateX(200%) skewX(12deg);
+    }
+}
+
+.animate-shine {
+    animation: shine 1.2s ease-in-out;
+}
+
+
+</style>
+<style>
+    html,
+    body {
+
+        overflow-x: hidden;
+    }
+</style>
+
+<body>
+    <nav class="h-[15vh] bg-[#0A1514] sticky flex justify-evenly  flex-wrap items-center text-white">
+        <h1 class="text-[40px] font-[satisfy]">Foodify</h1>
+        <ul class="hidden md:flex justify-evenly items-center  gap-[70px] font-['Cormorant_Garamond',Georgia,serif]">
+            <li class="hover:text-[#C09342] cursor-pointer">HOME</li>
+            <li class="hover:text-[#C09342] cursor-pointer">ABOUT US</li>
+            <li class="hover:text-[#C09342] cursor-pointer">MENU</li>
+            <li class="hover:text-[#C09342] cursor-pointer">PAGES</li>
+            <li class="hover:text-[#C09342] cursor-pointer">BLOG</li>
+            <li class="hover:text-[#C09342] cursor-pointer">CONTACT</li>
+        </ul>
+        <button class="bg-[#C09342] p-2 px-6 py-3  rounded-2xl hover:bg-white hover:text-black cursor-pointer">Order
+            Online </button>
+        <i class="ri-search-line text-white text-[30px] md:flex hidden"></i>
+        <i class="ri-menu-2-line md:hidden  text-[30px] "></i>
+    </nav>
+
+
+    <!-- main first section start -->
+    <div class="bg-[url('/fimg/hero-bg.jpg')] bg-cover  bg-fixed md:min-h-[100vh]  w-[100%] text-white">
+
+        <!-- part1 start -->
+        <div
+            class="flex justify-between  flex-col md:flex-row items-center py-30 text-center md:text-left md:w-[100%] w-[90%] m-auto">
+            <h2 class="text-[#C09342] font-['Satisfy']">A Taste You’ll Always Remember</h2>
+            <h1 class="md:text-6xl text-[40px] font-serif animate-float">Delicious Memories <br>
+                Are Made Daily</h1>
+            <div class="md:w-[30%] w-[90%]m-auto my-5">
+                <p class="my-5 font-['Cormorant_Garamond',Georgia,serif] ">We believe good food brings people together.
+                    From farm-fresh ingredients to
+                    mouth-watering recipes,
+                    every meal is crafted to delight your taste buds and create moments you’ll cherish.</p>
+                <img src="../fimg/hero-client.png" alt="" class="md:ml-0 ml-24">
+            </div>
+        </div>
+        <!-- part1 end -->
+
+
+        <!-- part2 start -->
+        <!-- timing start -->
+        <div class="flex justify-between md:flex-row flex-col w-[90%] m-auto items-center md:w-[100%]">
+            <div class="" data-aos="fade-right"  data-aos-duration="3000">
+                <h1 class="md:text-4xl text-5xl font-['Cormorant_Garamond',Georgia,serif]">Monday-Thursday</h1>
+                <p class="text-center" >07.00 AM - 10.00 PM</p>
+
+            </div>
+            <div class="" data-aos="fade-left"  data-aos-duration="3000">
+                <h1 class="md:text-4xl text-5xl font-['Cormorant_Garamond',Georgia,serif]">Friday-Sunday</h1>
+                <p class="text-center" >06.30 AM - 11.30 PM</p>
+            </div>
+        </div>
+        <!-- timing end -->
+        <!-- part2 end -->
+
+
+
+
+
+
+
+
+        <!-- part3 start -->
+        <div class="flex justify-center items-center relative my-14 ">
+            <img src="../fimg/hero-1.png" alt="" class="md:h-[670px] md:w-[1002px] w-[90%] h-[500px] relative">
+            <h1
+                class="absolute md:text-[300px] text-[110px] top-[230px] md:top-[200px] font-['Cormorant_Garamond',Georgia,serif]">
+                TASTUQ</h1>
+        </div>
+        <!-- part3 end -->
+
+
+        <!-- part4 start -->
+        <div
+            class="flex justify-evenly items-center flex-wrap  w-[90%] m-auto md:w-[100%] text-center min-h-[30vh] bg-[#0A1514] py-5 border-t ">
+            <div class="flex justify-evenly items-center gap-2 w-[90%] m-auto md:w-[30%]" data-aos="zoom-in-up"  data-aos-duration="3000">
+
+
+
+
+
+                <!-- img start -->
+                <div class="" >
+                    <img src="../fimg/icon1.png" alt="">
+                </div>
+                <!-- img end -->
+
+                <!-- text start -->
+                <div>
+                    <h1 class="text-2xl font-[satisfy]">//..Location Us</h1>
+                    <p class="text-xl font-['Cormorant_Garamond',Georgia,serif]">1901 Thornridge Cir. Shiloh, Hawaii
+                        81063 </p>
+                </div>
+                <!-- text end -->
+            </div>
+
+
+
+            <div class="flex justify-evenly items-center gap-2 w-[90%] my-6 m-auto md:w-[30%]  md:mr-0  mr-11" data-aos="zoom-in-up"  data-aos-duration="3000">
+
+
+
+                <!-- img start -->
+                <div>
+                    <img src="../fimg/icon2.png" alt="">
+                </div>
+                <!-- img end -->
+
+
+                <!-- text start -->
+                <div>
+                    <h1 class="text-2xl font-[satisfy]" > //..Open Hours</h1>
+                    <p class="text-xl font-['Cormorant_Garamond',Georgia,serif]">Monday - Friday 7:00AM - 10:00PM</p>
+                </div>
+                <!-- text end -->
+
+            </div>
+
+            <div class="flex justify-evenly items-center gap-2 w-[90%] m-auto md:w-[30%]  md:mr-0  mr-27" data-aos="zoom-in-up"  data-aos-duration="3000">
+                <!-- img start -->
+                <div>
+                    <img src="../fimg/icon1.png" alt="" class="">
+                </div>
+                <!-- img end -->
+
+
+
+
+
+
+
+
+                <!-- text start -->
+                <div>
+                    <h1 class="text-2xl font-[satisfy]">//..Reservation
+                    </h1>
+                    <p class="text-xl font-['Cormorant_Garamond',Georgia,serif]">infoexample@gmail.com </p>
+                </div>
+                <!-- text end -->
+            </div>
+
+        </div>
+        <!-- part4 end -->
+
+
+
+
+    </div>
+    <!-- main first section end -->
+
+
+
+
+
+    <!-- sectioon 2nd start -->
+    <div class=" relative py-2 ">
+        <div class="flex  flex-col justify-evenly items-center text-center p-20 relative">
+            <h1 class="text-orange-600 text-5xl my-3  font-['Satisfy'] ">About us</h1>
+            <div
+                class="flex justify-evenly items-center text-[4vw] text-gray-500 font-['Cormorant_Garamond',Georgia,serif] animate-pulse">
+                Discover the <img src="../fimg/about-sm-01.png" alt=""
+                    class="md:flex hidden font-['Cormorant_Garamond',Georgia,serif]"> Heart of TastyQ —</div>
+            <div
+                class="flex justify-evenly items-center text-[4vw] text-gray-500 font-['Cormorant_Garamond',Georgia,serif] animate-pulse">
+                Where Every <img src="../fimg/about-sm-02.png" alt="" class="md:flex hidden" > Dish Tells a Story of
+                Flavor</div>
+            <div class="flex justify-evenly items-center text-[4vw] text-gray-500 animate-pulse"> <img src="../fimg/about-sm-03.png"
+                    alt="" class="md:flex hidden"> and Togetherness.</div>
+        </div>
+
+
+
+        <div class="flex justify-center items-center relative ">
+            <img src="../fimg/number-text.png" alt="">
+            <div class="absolute text-[150px] md:right-95 md:top-40 right-3 top-35 md:flex hidden  ">+</div>
+            <div
+                class="absolute rotate-45 outline-1 rounded-full px-6 py-3 top-35 md:flex hidden text-[#0A1514] border-[#0A1514] right-80">
+                <img src="../fimg/circle-check.png" alt="">Years Experiences
+            </div>
+            <div
+                class="absolute outline-1 rounded-full px-6 py-3 top-74 md:flex hidden text-[#0A1514] border-[#0A1514] left-95 rotate-30">
+                <img src="../fimg/circle-check.png" alt=""> Awards With Partners
+            </div>
+        </div>
+        <!-- part2 start    -->
+        <div class="flex items-center justify-evenly md:min-h-[50vh] gap-10 m-auto md:flex-row flex-col md:w-[80%] ">
+            <div class="md:w-[80%] w-[90%] m-auto">
+                <p class="md:w-[90%] w-[100%] font-['Cormorant_Garamond',Georgia,serif]">TastyQ began with a simple idea
+                    — to bring people together
+                    through delicious, honest food made from the freshest
+                    ingredients. From our welcoming atmosphere to our chef’s
+                    signature dishes, every detail is inspired by our love for great
+                    taste and genuine hospitality. Join us and be part of our story —
+                    where every meal feels like coming home.</p>
+            </div>
+            <div class="md:w-[60%] w-[90%] m-auto flex">
+                <button
+                    class="p-5 outline-2 mx-6 rounded-full py-4 bg-[#C09342] text-white hover:bg-black cursor-pointer">More
+                    About Us</button>
+                <button
+                    class="p-5 outline-2 mx-6 rounded-full py-4 bg-[#C09342] text-white hover:bg-black cursor-pointer">📞(1234)282828
+                </button>
+            </div>
+        </div>
+        <!-- part2 end -->
+        <!-- marque start -->
+        <div class="h-[20vh] bg-[#C09342] p-3 hidden md:flex justify-evenly gap-3 items-center  ">
+            <marquee direction="left" behaviour="scroll " loop="20">
+                <div class="md:flex flex">
+                    <div class="flex justify-evenly items-center gap-3 w-[20%] mx-2 ">
+                        <div>
+                            <img src="../fimg/marquee-01.png" alt="" class="md:flex hidden">
+                        </div>
+                        <div class="text-white text-[20px] font-[satisfy]">WEDDING</div>
+                    </div>
+                    <div class="flex justify-evenly items-center  gap-3 w-[20%] mx-2">
+                        <div><img src="../fimg/marquee-02.png" alt="" class="md:flex hidden"></div>
+                        <div class="text-white text-[20px] font-[satisfy]">Birthday Party</div>
+                    </div>
+                    <div class="flex justify-evenly items-center  gap-3 w-[20%] mx-2">
+                        <div><img src="../fimg/marquee-03.png" alt="" class="md:flex hidden"></div>
+                        <div class="text-white text-[20px] font-[satisfy]">Anniversary</div>
+                    </div>
+                    <div class="flex justify-evenly items-center gap-3 md:w-[20%] w-[30%] mx-2">
+                        <div><img src="../fimg/marquee-01.png" alt="" class=" md:flex hidden"></div>
+                        <div class="text-white text-[20px] font-satisfy">Made it to Friday</div>
+                    </div>
+                    <div class="flex justify-evenly items-center gap-3 w-[20%] mx-2">
+                        <div><img src="../fimg/marquee-02.png" alt="" class="md:flex hidden"></div>
+                        <div class="text-white text-[20px] font-[satisfy]">Dinner Party</div>
+                    </div>
+                </div>
+            </marquee>
+
+        </div>
+        <!-- marque end -->
+
+
+
+    </div>
+    <!-- section 2nd end -->
+
+
+
+
+
+
+    <!-- third section start -->
+    <div class="min-h-[100vh]: flex wrap flex-col bg-[#0A1514] relative">
+        <!-- text start -->
+        <div class="md:flex-col flex-col text-center md:h-[50vh] h-[30vh] py-21 md:p-14 text-white">
+            <h1 class="md:text-2xl text-xl text-[#C09342] font-['satisfy']" data-aos="fade-right"  data-aos-duration="3000">Food Menu
+            </h1>
+            <div class="md:text-6xl text-3xl md:mr-[500px] font-['Cormorant_Garamond',Georgia,serif] " data-aos="fade-right"  data-aos-duration="3000">Delicious Food
+                Category
+            </div>
+            <div class="md:text-6xl text-3xl md:ml-[500px] font-['Cormorant_Garamond',Georgia,serif]" data-aos="fade-left"  data-aos-duration="3000">// ..New Menu { 25
+                - 26 }
+            </div>
+        </div>
+        <!-- text end -->
+
+
+        <!-- grid start -->
+        <div
+            class=" md:grid grid-cols-2  grid-flow-col grid-rows-2 md:outline-2  md:outline-white min-h-[100vh] md:w-[100%] w-[90%]   m-auto bg-fixed border-white">
+            <!-- first start -->
+            <div class=" min-h-[0%] relative md:w-[100%]    md:p-5 py-4 my-4 ">
+                <img src="../fimg/food-01.png" alt="" class="md:size-[500px]  md:ml-10 ">
+                <div
+                    class="flex justify-between items-center md:flex-row flex-col outline-2 rounded-full text-white py-5 px-5 m-auto w-[60%] md:mb-10">
+                    <div class="hover:text-[#C09342] cursor-pointer text-xl font-['Cormorant_Garamond',Georgia,serif]">
+                        Grilled Chicken Casear </div>
+                    <div class="text-xl">..// Romaine ..//</div>
+                </div>
+                <div
+                    class="absolute z-50 bg-white md:right-15 right-12 top-10 rounded-full md:w-[10%] w-[20%] text-center text-xl animate-float">
+                    $10.00</div>
+
+
+
+            </div>
+            <!-- first end -->
+
+
+            <!-- 2nd start -->
+            <div class=" min-h-[40%]  md:w-[100%]    relative     md:p-5 my-4">
+
+
+                <img src="../fimg/food-02.png" alt="" class="md:size-[500px] size-[400px] md:ml-10 ">
+                <div
+                    class="flex justify-between items-center outline-2 rounded-full text-white  md:flex-row flex-col  py-5 px-5 m-auto w-[60%] md:mb-10">
+                    <div class="hover:text-[#C09342] cursor-pointer font-['Cormorant_Garamond',Georgia,serif]">Quinoa &
+                        Roasted Veggies </div>
+                    <div>..// Vinaigrette ..//</div>
+                </div>
+                <div
+                    class="absolute z-50 md:right-15 right-12  bg-white right-15 top-10 rounded-full md:w-[10%] w-[20%] text-center text-xl animate-float">
+                    $08.75</div>
+
+
+
+
+
+
+            </div>
+            <!-- 2nd end -->
+
+
+
+            <!-- 3rd start -->
+            <div class=" min-h-[40%]  w-[100%]  relative    md:p-5 py-4 my-4 ">
+
+
+
+
+                <img src="../fimg/food-03.png" alt="" class="md:size-[500px] size-[400px] md:ml-10">
+                <div
+                    class="flex justify-between items-center outline-2 rounded-full text-white py-5 px-5 m-auto w-[60%] mb-10 md:flex-row flex-col">
+
+
+
+
+                    <div class="hover:text-[#C09342] cursor-pointer text-xl">Avacado Toast Deluxe </div>
+                    <div class="text-xl font-['Cormorant_Garamond',Georgia,serif]">..// Poached egg ..//</div>
+                </div>
+                <div
+                    class="animate-float absolute z-50 bg-white md:right-15 right-12 top-10 rounded-full md:w-[10%] w-[20%] text-center  text-xl">
+                    $15.00</div>
+            </div>
+            <!-- 3rd end -->
+
+
+
+
+
+            <!-- 4th start -->
+            <div class=" min-h-[40%]  w-[100%]  relative   py-4 my-4">
+
+
+
+                <img src="../fimg/food-04.png" alt="" class="md:size-[500px] size-[400px] md:ml-10">
+                <div
+                    class="flex justify-between items-center outline-2 rounded-full text-white py-5 px-5 m-auto w-[60%] md:mb-10 md:flex-row flex-col">
+                    <div class="hover:text-[#C09342] cursor-pointer text-xl font-['Cormorant_Garamond',Georgia,serif]">
+                        Creamy Alfredo Pasta </div>
+                    <div class="text-xl">..// Mozzarella ..//</div>
+                </div>
+                <div
+                    class="animate-float absolute z-50 bg-white md:right-15 right-12 top-10 rounded-full md:w-[10%] w-[20%] text-center text-xl">
+                    $12.00</div>
+            </div>
+            <!-- 4th end -->
+        </div>
+        <!-- grid end -->
+
+        <!-- button start -->
+        <div class="h-[50vh] flex justify-center items-center ">
+            <button
+                class="  rounded-[100%] size-[200px] bg-[#C09342] hover:bg-black hover:cursor-pointer hover:text-white ">View
+                All Food</button>
+        </div>
+        <!-- button end -->
+
+
+    </div>
+
+
+    <!-- third section end -->
+
+    <!-- fourth section start -->
+    <div class="min-h-[100vh]  bg-[#121D1C]">
+        <div class=" text-center text-white md:p-20 p-7 ">
+            <div class="md:text-5xl text-3xl text-[#fb8507] font-['satisfy']" data-aos="fade-right"  data-aos-duration="3000">Taste The Goodlife</div>
+            <div class="md:text-5xl text-3xl font-['Cormorant_Garamond',Georgia,serif]" data-aos="fade-left"  data-aos-duration="3000">Taste the Best of TastyQ</div>
+        </div>
+
+
+
+        <div class="text-[#ffffff] flex-wrap flex justify-evenly w-[90%] m-auto md:w-[100%] items-center   ">
+            <div class="md:w-[40%] w-[90%] m-auto h-[90%]  p-2 rounded-xl  ">
+                <!-- menu start -->
+                <div class="hover:bg-[url('/fimg/menu-hover-img.jpg')] h-[25vh] bg-cover  rounded-xl w-[90%] m-auto">
+                    <div
+                        class="flex justify-evenly items-center  md:flex-row flex-col text-center my-9   bg-cover group-hover:scale-105 hover:cursor-pointer ">
+                        <img src="../fimg/menu-01.jpg" alt="" class="size-[100px] rounded-xl ">
+                        <div class="">
+                            <h1 class="md:text-xl text-lg font-bold">Juicy & Packed with Garlic Kick</h1>
+                            <p class="md:text-xl text-lg my-2  font-bold">// .. 02 Spicy Garlic Prawns
+                                .....................
+                            </p>
+                            <p class="md:text-xl text-lg  text-[#fb8507]  font-bold">$14.50</p>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="hover:bg-[url('/fimg/menu-hover-img.jpg')] h-[25vh] bg-cover  rounded-xl w-[90%] m-auto">
+                    <div
+                        class="flex justify-evenly items-center  md:flex-row flex-col text-center my-9   bg-cover group-hover:scale-105 hover:cursor-pointer ">
+                        <img src="../fimg/menu-01.jpg" alt="" class="size-[100px] rounded-xl ">
+                        <div class="">
+                            <h1 class="md:text-xl text-lg font-bold">Juicy & Packed with Garlic Kick</h1>
+                            <p class="md:text-xl text-lg my-2  font-bold">// .. 02 Spicy Garlic Prawns
+                                .....................
+                            </p>
+                            <p class="md:text-xl text-lg  text-[#fb8507]  font-bold">$14.50</p>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="hover:bg-[url('/fimg/menu-hover-img.jpg')] h-[25vh] bg-cover  rounded-xl  w-[90%] m-auto">
+                    <div
+                        class="flex justify-evenly items-center  md:flex-row flex-col text-center my-9   bg-cover group-hover:scale-105 hover:cursor-pointer ">
+                        <img src="../fimg/menu-01.jpg" alt="" class="size-[100px] rounded-xl ">
+                        <div class="">
+                            <h1 class="md:text-xl text-lg font-bold">Juicy & Packed with Garlic Kick</h1>
+                            <p class="md:text-xl text-lg my-2  font-bold">// .. 02 Spicy Garlic Prawns
+                                .....................
+                            </p>
+                            <p class="md:text-xl text-lg  text-[#fb8507]  font-bold">$14.50</p>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="hover:bg-[url('/fimg/menu-hover-img.jpg')] h-[25vh] bg-cover  rounded-xl  w-[90%] m-auto">
+                    <div
+                        class="flex justify-evenly items-center  md:flex-row flex-col text-center my-9   bg-cover group-hover:scale-105 hover:cursor-pointer ">
+                        <img src="../fimg/menu-01.jpg" alt="" class="size-[100px] rounded-xl ">
+                        <div class="">
+                            <h1 class="md:text-xl text-lg font-bold">Juicy & Packed with Garlic Kick</h1>
+                            <p class="md:text-xl text-lg my-2  font-bold">// .. 02 Spicy Garlic Prawns
+                                .....................
+                            </p>
+                            <p class="md:text-xl text-lg  text-[#fb8507]  font-bold">$14.50</p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="hover:bg-[url('/fimg/menu-hover-img.jpg')] h-[25vh] bg-cover  rounded-xl  w-[90%] m-auto">
+                    <div
+                        class="flex justify-evenly items-center  md:flex-row flex-col text-center my-9   bg-cover group-hover:scale-105 hover:cursor-pointer ">
+                        <img src="../fimg/menu-01.jpg" alt="" class="size-[100px] rounded-xl ">
+                        <div class="">
+                            <h1 class="md:text-xl text-lg font-bold">Juicy & Packed with Garlic Kick</h1>
+                            <p class="md:text-xl text-lg my-2  font-bold">// .. 02 Spicy Garlic Prawns
+                                .....................
+                            </p>
+                            <p class="md:text-xl text-lg  text-[#fb8507]  font-bold">$14.50</p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="hover:bg-[url('/fimg/menu-hover-img.jpg')] h-[25vh] bg-cover  rounded-xl  w-[90%] m-auto">
+                    <div
+                        class="flex justify-evenly items-center  md:flex-row flex-col text-center my-9   bg-cover group-hover:scale-105 hover:cursor-pointer ">
+                        <img src="../fimg/menu-01.jpg" alt="" class="size-[100px] rounded-xl ">
+                        <div class="">
+                            <h1 class="md:text-xl text-lg font-bold">Juicy & Packed with Garlic Kick</h1>
+                            <p class="md:text-xl text-lg my-2  font-bold">// .. 02 Spicy Garlic Prawns
+                                .....................
+                            </p>
+                            <p class="md:text-xl text-lg  text-[#fb8507]  font-bold">$14.50</p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- menu end -->
+
+
+
+            </div>
+            <div class="w-[10%] md:flex hidden h-[90%]">
+                <img src="../fimg/menu-line.png" alt="" class="h-[120%]">
+            </div>
+
+
+            <div class="md:w-[40%] w-[90%] m-auto h-[90%]">
+
+                <!-- menu start -->
+                <div class="hover:bg-[url('/fimg/menu-hover-img.jpg')] h-[25vh] bg-cover  rounded-xl w-[90%] m-auto">
+                    <div
+                        class="flex justify-evenly items-center  md:flex-row flex-col text-center my-9   bg-cover group-hover:scale-105 hover:cursor-pointer ">
+                        <img src="../fimg/menu-01.jpg" alt="" class="size-[100px] rounded-xl ">
+                        <div class="">
+                            <h1 class="md:text-xl text-lg font-bold">Juicy & Packed with Garlic Kick</h1>
+                            <p class="md:text-xl text-lg my-2  font-bold">// .. 02 Spicy Garlic Prawns
+                                .....................
+                            </p>
+                            <p class="md:text-xl text-lg  text-[#fb8507]  font-bold">$14.50</p>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="hover:bg-[url('/fimg/menu-hover-img.jpg')] h-[25vh] bg-cover  rounded-xl w-[90%] m-auto">
+                    <div
+                        class="flex justify-evenly items-center  md:flex-row flex-col text-center my-9   bg-cover group-hover:scale-105 hover:cursor-pointer ">
+                        <img src="../fimg/menu-01.jpg" alt="" class="size-[100px] rounded-xl ">
+                        <div class="">
+                            <h1 class="md:text-xl text-lg font-bold">Juicy & Packed with Garlic Kick</h1>
+                            <p class="md:text-xl text-lg my-2  font-bold">// .. 02 Spicy Garlic Prawns
+                                .....................
+                            </p>
+                            <p class="md:text-xl text-lg  text-[#fb8507]  font-bold">$14.50</p>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="hover:bg-[url('/fimg/menu-hover-img.jpg')] h-[25vh] bg-cover  rounded-xl  w-[90%] m-auto">
+                    <div
+                        class="flex justify-evenly items-center  md:flex-row flex-col text-center my-9   bg-cover group-hover:scale-105 hover:cursor-pointer ">
+                        <img src="../fimg/menu-01.jpg" alt="" class="size-[100px] rounded-xl ">
+                        <div class="">
+                            <h1 class="md:text-xl text-lg font-bold">Juicy & Packed with Garlic Kick</h1>
+                            <p class="md:text-xl text-lg my-2  font-bold">// .. 02 Spicy Garlic Prawns
+                                .....................
+                            </p>
+                            <p class="md:text-xl text-lg  text-[#fb8507]  font-bold">$14.50</p>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="hover:bg-[url('/fimg/menu-hover-img.jpg')] h-[25vh] bg-cover  rounded-xl  w-[90%] m-auto">
+                    <div
+                        class="flex justify-evenly items-center  md:flex-row flex-col text-center my-9   bg-cover group-hover:scale-105 hover:cursor-pointer ">
+                        <img src="../fimg/menu-01.jpg" alt="" class="size-[100px] rounded-xl ">
+                        <div class="">
+                            <h1 class="md:text-xl text-lg font-bold">Juicy & Packed with Garlic Kick</h1>
+                            <p class="md:text-xl text-lg my-2  font-bold">// .. 02 Spicy Garlic Prawns
+                                .....................
+                            </p>
+                            <p class="md:text-xl text-lg  text-[#fb8507]  font-bold">$14.50</p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="hover:bg-[url('/fimg/menu-hover-img.jpg')] h-[25vh] bg-cover  rounded-xl  w-[90%] m-auto">
+                    <div
+                        class="flex justify-evenly items-center  md:flex-row flex-col text-center my-9   bg-cover group-hover:scale-105 hover:cursor-pointer ">
+                        <img src="../fimg/menu-01.jpg" alt="" class="size-[100px] rounded-xl ">
+                        <div class="">
+                            <h1 class="md:text-xl text-lg font-bold">Juicy & Packed with Garlic Kick</h1>
+                            <p class="md:text-xl text-lg my-2  font-bold">// .. 02 Spicy Garlic Prawns
+                                .....................
+                            </p>
+                            <p class="md:text-xl text-lg  text-[#fb8507]  font-bold">$14.50</p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="hover:bg-[url('/fimg/menu-hover-img.jpg')] h-[25vh] bg-cover  rounded-xl  w-[90%] m-auto">
+                    <div
+                        class="flex justify-evenly items-center  md:flex-row flex-col text-center my-9   bg-cover group-hover:scale-105 hover:cursor-pointer ">
+                        <img src="../fimg/menu-01.jpg" alt="" class="size-[100px] rounded-xl ">
+                        <div class="">
+                            <h1 class="md:text-xl text-lg font-bold">Juicy & Packed with Garlic Kick</h1>
+                            <p class="md:text-xl text-lg my-2  font-bold">// .. 02 Spicy Garlic Prawns
+                                .....................
+                            </p>
+                            <p class="md:text-xl text-lg  text-[#fb8507]  font-bold">$14.50</p>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- menu end -->
+            </div>
+        </div>
+
+    </div>
+    <!-- fourth section end -->
+
+
+
+    <!-- fifth section start  -->
+
+    <div class="m-h-[100vh] ">
+        <!-- text start -->
+        <div class="md:w-[50%] w-[90%] p-15 md:m-0 m-auto">
+            <h1 class="text-[#fb8507] my-3 font-[satisfy] ">Award Winning
+            </h1>
+            <h1 class="md:text-4xl text-xl font-semibold my-3 font-['Cormorant_Garamond',Georgia,serif]">Award-Winning
+                Flavors That
+                Speak for Themselves</h1>
+            <p class="my-3 font-serif">Our passion for culinary excellence has earned us prestigious awards and the love
+                of
+                food lovers everywhere. Every dish is crafted with the finest ingredient</p>
+            <button class="bg-[#C09342] p-2 px-6 py-3  rounded-2xl hover:bg-black hover:text-white cursor-pointer">View
+                All Reward</button>
+
+        </div>
+        <!-- text end -->
+
+
+
+        <!-- 1 certificate start -->
+        <div class="min-h-[80vh] outline-1 w-[90%] m-auto rounded-xl my-8 " data-aos="fade-left"  data-aos-duration="3000">
+
+
+            <div class="md:flex-row flex-col justify-between items-center md:text-left text-center p-5">
+                <h1 class=" md:text-4xl text-xl font-semibold">..// 01. Outstanding Service Award</h1>
+            </div>
+
+
+
+            <div class="flex justify-evenly items-center flex-col md:flex-row ">
+                <div class="md:w-[50%] h-[90%] p-12 ">
+                    <div class="flex justify-between items-center my-9 flex-col md:flex-row ">
+                        <img src="../fimg/award.png" alt="" class="mb-10 md:mb-0">
+                        <h1 class="text-3xl ">//.. 2018-2025 ..//
+
+                        </h1>
+                    </div>
+                    <div class="w-[100%] m-auto font-['Cormorant_Garamond',Georgia,serif]">
+                        At TastyQ, every guest is family — and our commitment to warm, attentive service has made us a
+                        proud winner of the Customer’s Choice for Outstanding Service award. From the moment you walk
+                        through our doors to your last delicious
+                    </div>
+                </div>
+
+                <div class="md:w-[50%] w-[90%] m-auto  my-4">
+                    <img src="../fimg/award-image.jpg" alt="" class="md:ml-40 ml-0 rounded-xl">
+                </div>
+            </div>
+        </div>
+        <!-- 1 certificate end -->
+
+
+
+        <!-- 2 certificate start -->
+        <div class="min-h-[80vh] outline-1 w-[90%] m-auto rounded-xl my-8 " data-aos="fade-right"  data-aos-duration="3000">
+
+
+            <div class="md:flex-row flex-col justify-between items-center md:text-left text-center p-5">
+                <h1 class=" md:text-4xl text-xl font-semibold">..// 02. Outstanding Service Award</h1>
+            </div>
+
+
+
+            <div class="flex justify-evenly items-center flex-col md:flex-row ">
+                <div class="md:w-[50%] h-[90%] p-12 ">
+                    <div class="flex justify-between items-center my-9 flex-col md:flex-row ">
+                        <img src="../fimg/award.png" alt="" class="mb-10 md:mb-0">
+                        <h1 class="text-3xl ">//.. 2018-2025 ..//
+
+                        </h1>
+                    </div>
+                    <div class="w-[100%] m-auto font-['Cormorant_Garamond',Georgia,serif]">
+                        At TastyQ, every guest is family — and our commitment to warm, attentive service has made us a
+                        proud winner of the Customer’s Choice for Outstanding Service award. From the moment you walk
+                        through our doors to your last delicious
+                    </div>
+                </div>
+
+                <div class="md:w-[50%] w-[90%] m-auto  my-4">
+                    <img src="../fimg/award-image.jpg" alt="" class="md:ml-40 ml-0 rounded-xl">
+                </div>
+            </div>
+        </div>
+        <!-- 2 certificate end -->
+
+
+
+
+
+        <!-- 3 certificate start -->
+        <div class="min-h-[80vh] outline-1 w-[90%] m-auto rounded-xl my-8" data-aos="fade-left"  data-aos-duration="3000">
+
+
+            <div class="md:flex row flex col justify-between items-center text-center p-5">
+                <h1 class=" md:text-4xl text-xl font-semibold">..// 03. Top Choice Authentic 2022</h1>
+            </div>
+
+
+
+            <div class="flex justify-evenly items-center flex-col md:flex-row  ">
+                <div class="md:w-[50%] h-[90%] p-12 ">
+                    <div class="flex justify-between items-center flex-col md:flex-row  my-9">
+                        <img src="../fimg/award.png" alt="" class="mb-10 md:mb-0">
+                        <h1 class="text-3xl ">//.. 2018-2025 ..//
+
+                        </h1>
+                    </div>
+                    <div class="w-[100%] m-auto  font-['Cormorant_Garamond',Georgia,serif]">
+                        At TastyQ, every guest is family — and our commitment to warm, attentive service has made us a
+                        proud winner of the Customer’s Choice for Outstanding Service award. From the moment you walk
+                        through our doors to your last delicious
+                    </div>
+                </div>
+
+                <div class="md:w-[50%] w-[90%] m-auto my-4">
+                    <img src="../fimg/award-image.jpg" alt="" class="md:ml-40 ml-0 rounded-xl ">
+                </div>
+            </div>
+        </div>
+        <!-- 3 certificate end -->
+
+
+
+
+        <!-- 4 certificate start -->
+        <div class="min-h-[80vh] outline-1 w-[90%] m-auto rounded-xl my-8" data-aos="fade-right"  data-aos-duration="3000">
+
+
+            <div class="md:flex row flex col justify-between items-center text-center p-5">
+                <h1 class=" md:text-4xl text-xl font-semibold">..// 04. Recognized as Community</h1>
+            </div>
+
+
+
+            <div class="flex justify-evenly items-center flex-col md:flex-row ">
+                <div class="md:w-[50%] h-[90%] p-12 ">
+                    <div class="flex justify-between items-center my-9 flex-col md:flex-row ">
+                        <img src="../fimg/award.png" alt="" class="mb-10 md:mb-0">
+                        <h1 class="text-3xl ">//.. 2018-2025 ..//
+
+                        </h1>
+                    </div>
+                    <div class="w-[100%] m-auto font-['Cormorant_Garamond',Georgia,serif]">
+                        At TastyQ, every guest is family — and our commitment to warm, attentive service has made us a
+                        proud winner of the Customer’s Choice for Outstanding Service award. From the moment you walk
+                        through our doors to your last delicious
+                    </div>
+                </div>
+
+                <div class="md:w-[50%] w-[90%] m-auto my-4">
+                    <img src="../fimg/award-image.jpg" alt="" class="md:ml-40 ml-0 rounded-xl">
+                </div>
+            </div>
+        </div>
+        <!-- 4 certificate end -->
+
+
+
+
+
+    </div>
+    <!-- fifth section end -->
+
+
+
+
+    <!-- sixth section start -->
+    <div class="min-h-[70vh] bg-[#0A1514] w-[100%]">
+        <div class="flex  justify-evenly items-center md:flex-row flex-col text-white md:p-32 p-0">
+            <div class="md:w-[20%] w-[90%] m-auto outline-1 outline-white h-[80%] flex-col md:p-8 p-9 rounded-xl my-5 "  data-aos="zoom-in-up"  data-aos-duration="3000">
+                <h1>.. l</h1>
+
+                <li class="md:text-[20px] text-xl font-['Cormorant_Garamond',Georgia,serif]"> Our Dally Order</li>
+                <p class="md:text-4xl text-xl ">2k</p>
+
+            </div>
+
+            <div class="md:w-[20%] w-[90%] m-auto outline-1 outline-white h-[80%] flex-col  p-8 rounded-xl my-5" data-aos="zoom-in-up"  data-aos-duration="3000">
+                <p class="md:text-4xl text-xl"> 18</p>
+                <h1> .. ll</h1>
+
+                <li class="md:text-[20px] text-xl font-[satify]"> Specialists Chef</li>
+            </div>
+            <div class="md:w-[20%] w-[90%] m-auto outline-1 outline-white h-[80%]  p-8 rounded-xl my-5" data-aos="zoom-in-up"  data-aos-duration="3000">
+                <h1> . lll</h1>
+
+                <li class="md:text-[20px] text-xl font-[satisfy]"> Our Menu Dish</li>
+                <p class="md:text-4xl text-xl"> 126</p>
+            </div>
+
+            <div class="md:w-[20%] w-[90%] m-auto outline-1 outline-white h-[80%]  p-8 rounded-xl my-5" data-aos="zoom-in-up"  data-aos-duration="3000">
+                <p class="md:text-4xl text-xl">50</p>
+                <h1>.. lV</h1>
+
+                <li class="md:text-[20px] text-xl font-[satisfy]"> Member</li>
+            </div>
+        </div>
+    </div>
+
+    <!-- sixth section end -->
+
+
+
+
+    <!-- seventh section start -->
+    <div class="min-h-[100vh] bg-[#FFF3E6]">
+        <div class=" md:w-[50%] m-auto w-[90%] text-center py-7">
+            <h1 class="text-[#fb8507] font-[satisfy]" data-aos="fade-right"  data-aos-duration="3000" >Team Member</h1>
+            <h1 class="md:text-6xl text-xl my-4 font-['Cormorant_Garamond',Georgia,serif]" data-aos="fade-left"  data-aos-duration="3000">Meet the Team Behind
+                the Taste</h1>
+            <p class="font-['Cormorant_Garamond']" data-aos="fade-right"  data-aos-duration="3000">Our talented chefs, friendly servers, and dedicated staff work
+                together to create an
+                unforgettable dining experience for every guest.</p>
+        </div>
+        <div class=" flex justify-evenly items-center relative w-[90%] md:w-[100%] m-auto md:flex-row flex-col ">
+
+
+            <!-- 1 start -->
+            <div class="relative w-[90%] m-auto md:w-[100%] my-5 ">
+                <img src="../fimg/team-01.jpg" alt="" class="size-[400px]" data-aos="flip-up"  data-aos-duration="3000">
+                <h1
+                    class="absolute z-50 outline w-[25%] rounded-xl md:right-0 md:bottom-15 rotate-45 bg-white text-center font-semibold right-0 bottom-15">
+                    2015 - 2025
+                </h1>
+                <div class="flex justify-between items-center mt-6 ">
+                    <h1 class="font-semibold">Olivia Patel</h1>
+                    <h1>/.. Sous Chef.. //</h1>
+                </div>
+            </div>
+            <!-- 1 end -->
+
+
+
+            <!-- 2 start -->
+            <div class="relative w-[90%] m-auto md:w-[100%] my-5 ">
+                <img src="../fimg/team-01.jpg" alt="" class="size-[400px]" data-aos="flip-down"  data-aos-duration="3000">
+                <h1
+                    class="absolute z-50 outline w-[25%] rounded-xl md:right-0 md:bottom-15 rotate-45 bg-white text-center font-semibold right-0 bottom-15">
+                    2015 - 2025
+                </h1>
+                <div class="flex justify-between items-center mt-6 ">
+                    <h1 class="font-semibold">Olivia Patel</h1>
+                    <h1>/.. Sous Chef.. //</h1>
+                </div>
+            </div>
+            <!-- 2 end -->
+
+
+            <!-- 3 start -->
+            <div class="relative w-[90%] m-auto md:w-[100%] my-5 ">
+                <img src="../fimg/team-01.jpg" alt="" class="size-[400px]" data-aos="flip-up"  data-aos-duration="3000">
+                <h1
+                    class="absolute z-50 outline w-[25%] rounded-xl md:right-0 md:bottom-15 rotate-45 bg-white text-center font-semibold right-0 bottom-15">
+                    2015 - 2025
+                </h1>
+                <div class="flex justify-between items-center mt-6 ">
+                    <h1 class="font-semibold">Olivia Patel</h1>
+                    <h1>/.. Sous Chef.. //</h1>
+                </div>
+            </div>
+            <!-- 3 end     -->
+
+
+        </div>
+
+    </div>
+    <!-- seventh section end -->
+
+
+
+
+
+    <!-- eight section start -->
+    <div class="min-h-[100vh] bg-[#0A1514]">
+        <div class="md:w-[100%] w-[90%] m-auto py-20">
+            <div class="md:w-[80%] w-[90%] m-auto text-white my-4">
+                <h1 class="text-[#fb8507] md:text-2xl text-xl font-[satisfy]" data-aos="fade-right"  data-aos-duration="3000"> Our Blog</h1>
+                <p class="md:text-2xl text-xl font-['Cormorant_Garamond',Georgia,serif]" data-aos="fade-right"  data-aos-duration="3000"> Bringing You the Stories,
+                    Recipes & Secrets That Make TastyQ an
+                    Award-Winning Favorite Chef Secrets
+                    &
+                    Delicious Inspiration From the Heart of TastyQ.</p>
+                <h1 class="md:text-[200px] text-[100px] md:ml-99 ml-0 font-['Cormorant_Garamond',Georgia,serif]" data-aos="fade-left"  data-aos-duration="3000">
+                    //..2025</h1>
+            </div>
+            <div class="flex justify-evenly items-center md:flex-row flex-col  ">
+                <!-- text start -->
+                <div>
+                    <img src="../fimg/news-01.jpg" alt="" class="size-[400px] w-[500px] rounded-xl hover:scale-105 ease-in-out transition-all duration-700">
+                    <div class="flex justify-between items-center text-white my-4">
+                        <button class="outline rounded-xl p-4 py-2"> Delicious</button>
+                        <p>5 min </p>
+
+                    </div>
+                    <p class="text-white font-semibold text-xl font-[satisfy]">inside tastyQ stories that savor every
+                        flavour</p>
+                </div>
+                <!-- text end -->
+
+                <!-- flex start -->
+                <div>
+                    <img src="../fimg/news-02.jpg" alt="" class="size-[400px] w-[500px] rounded-xl my-4 hover:scale-105 ease-in-out transition-all duration-700
+                     ">
+
+                    <div class="flex justify-between items-center text-white my-4">
+                        <button class="outline rounded-xl p-4 py-2"> Delicious</button>
+                        <p>5 min </p>
+                    </div>
+                    <p class="text-white font-semibold text-xl font-[satisfy]">inside tastyQ stories that savor every
+                        flavour</p>
+
+
+
+
+                </div>
+                <!-- flex end -->
+
+
+
+
+
+            </div>
+
+
+            <!-- big picture start -->
+            <div class="w-[90%] m-auto mt-8 min-h-[50vh] md:flex flex-col hidden">
+
+                <img src="../fimg/news-03.jpg" alt="" class="rounded-xl hover:scale-105 ease-in-out transition-all duration-700">
+                <div class="flex justify-between items-center text-white mt-5">
+                    <button class="outline rounded-xl p-4 py-2"> Delicious</button>
+                    <p>5 min </p>
+                </div>
+
+
+            </div>
+
+            <!-- big picture end -->
+        </div>
+    </div>
+    <!-- eight section end -->
+
+    <!-- ninth section start -->
+    <div class="min-h-[100vh] w-[90%] md:w-[100%] m-auto p-4">
+        <div class="w-[90%] m-auto flex text-center gap-5 font-[satisfy]">
+            <span class="md:text-[200px] text-4xl ">Contact</span> <span class="md:text-8xl text-4xl">Foodify</span>
+        </div>
+        <div class="w-[90%] m-auto flex justify-evenly items-center md:flex-row flex-col">
+            <div class="md:w-[40%] w-[90%] m-auto  flex justify-center items-center flex-col ">
+                <div class="p-9">
+                    <img src="../fimg/location.png" alt="">
+                    <h1 class="text-xl font-semibold">OUR RESTURENT :</h1>
+                    <p>No 38 A, East Madison Street, Baltimore,</p>
+                </div>
+                <div class="p-9">
+                    <img src="../fimg/email.png" alt="">
+                    <h1 class="text-xl font-semibold">Email :</h1>
+                    <p>No 38 A, East Madison Street, Baltimore,</p>
+                </div>
+                <div class="p-9">
+                    <img src="../fimg/headphn.png" alt="">
+                    <h1 class="text-xl font-semibold">Contact Us:</h1>
+                    <p>No 38 A, East Madison Street, Baltimore,</p>
+                </div>
+
+            </div>
+
+
+            <div class="w-[60%] h-[90%] md:flex-row flex-col md:ml-20 ml-0">
+                <h1 class="text-2xl font-semibold">Send Us Message</h1>
+                <div class="flex  items-center gap-5 md:flex-row flex-col my-6">
+                    <div>
+                        <h1>Name</h1>
+                        <input type="text" placeholder="  Jason Holder" class="outline w-[300px] py-3 rounded-xl">
+                    </div>
+                    <div>
+                        <h1>Email </h1>
+                        <input type="email" placeholder="  abc@gmail.com"
+                            class="outline md:w-[90%] w-[300px] py-3 rounded-xl">
+                    </div>
+                </div>
+                <div class="my-6 flex  items-center gap-5 md:flex-row flex-col ">
+                    <div>
+                        <h1>Subject</h1>
+                        <input type="text" placeholder="  Your Subject"
+                            class="outline md:w-[259%] w-[300px]  py-3 rounded-xl">
+                    </div>
+                </div>
+                <div class="my-6 flex  items-center gap-5 md:flex-row flex-col ">
+                    <div>
+                        <h1>Messages</h1>
+                        <textarea placeholder="  Your Message Here "
+                            class="outline  md:w-[290%] w-[300px] py-3 rounded-xl"></textarea>
+                    </div>
+                </div>
+                <button
+                    class="text-white outline p-4 py-2 bg-[#C09342] hover:bg-black px-5 rounded-2xl hover:cursor-pointer md:ml-0 ml-17">Submit</button>
+
+            </div>
+        </div>
+    </div>
+    <!-- ninth section end -->
+
+
+    <!-- tenth section start -->
+    <div class="bg-[url('/fimg/footer-bg.jpg')] bg-cover md:min-h-[100vh]  relative ">
+        <div class="md:h-[100vh] h-[30vh]">
+            <div class="relative">
+                <img src="../fimg/footer-shape-1.png" alt="" class="absolute z-50 left-[400px]
+             md:flex hidden">
+            </div>
+            <h1 class="md:text-[150px] text-[100px] text-white absolute z-50 md:left-100  md:top-24 text-center left-9">
+                READY?</h1>
+            <div class="relative">
+                <img src="../fimg/footer-text.png" alt=""
+                    class="absolute md:top-[330px] top-[150px] md:left-64 z-50 md:w-[850px] w-[400px] left-3">
+                <img src="../fimg/footer-shape-2.png" alt="" class="absolute top-50 right-20 md:flex hidden">
+
+            </div>
+        </div>
+        <div class="w-[90%] m-auto">
+            <nav
+                class="flex justify-evenly items-center h-[15vh] text-white bg-black/15 w-[90%] md:flex-row flex-col m-auto rounded-2xl">
+                <h1>Foodify</h1>
+                <ul class="flex justify-evenly items-center gap-7">
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Blog</li>
+                    <li>Contact</li>
+                    <li>Support</li>
+                </ul>
+            </nav>
+        </div>
+        <div
+            class="md:w-[50%] w-[90%] m-auto text-white flex justify-evenly items-center gap-7 md:h-15 md:flex-row flex-col">
+            <div>
+                Food KITdokan 2026 | All Rights Reserved.
+            </div>
+            <div class="md:flex-row flex-row flex justify-evenly items-center gap-20 ">
+                <li>Terms & Condition</li>
+                <li>Privacy Policy</li>
+            </div>
+        </div>
+
+    </div>
+    <!-- tenth section end -->
+
+
+</body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+    AOS.init();
+</script>
+
+</html>
